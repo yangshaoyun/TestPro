@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TestPro</string>
+    <string name="app_name">TestScreen</string>
+    <string name="app_test">简易画板</string>
 </resources>
