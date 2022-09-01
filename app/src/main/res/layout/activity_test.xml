@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.yun.testscreen.DrawView
+    <com.polytope.testpro.DrawView
         android:id="@+id/drawView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

@@ -44,10 +44,10 @@ public class DrawView extends View {
         path = new Path(); //实例化路径
         cacheCanvas.setBitmap(cacheBitmap); //在cacheCanvas上绘制cacheBitmap
         paint = new Paint(); //实例化画笔
-        paint.setColor(Color.RED); //设置默认的画笔颜色
+        paint.setColor(Color.BLACK); //设置默认的画笔颜色
         //设置画笔风格
         paint.setStyle(Paint.Style.STROKE); //设置填充方式为描边
-        paint.setStrokeWidth(5); //设置默认笔触的宽度为1像素
+        paint.setStrokeWidth(15); //设置默认笔触的宽度为1像素
         paint.setAntiAlias(true); //使用抗锯齿功能
     }
 

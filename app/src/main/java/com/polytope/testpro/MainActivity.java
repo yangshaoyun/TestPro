@@ -14,6 +14,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author yangshaoyun
  */
@@ -45,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
                 handler.postDelayed(this, 1000);
             }
         }, 1000);
+        List list = new ArrayList();
+        
+
 //        ScheduledExecutorService executorService = new ScheduledThreadPoolExecutor(2);
 //        executorService.scheduleAtFixedRate(new Runnable() {
 //            @Override
