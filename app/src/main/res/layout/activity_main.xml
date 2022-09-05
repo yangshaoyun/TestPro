@@ -15,9 +15,24 @@
     <TextView
         android:id="@+id/tv_count"
         android:layout_width="wrap_content"
-        android:layout_toRightOf="@+id/orientation"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:textColor="@android:color/black"
         android:layout_marginLeft="10dp"
-        android:layout_height="wrap_content"/>
+        android:layout_toRightOf="@+id/orientation"
+        android:textColor="@android:color/black" />
+
+
+
+    <Button
+        android:id="@+id/bt_encryption"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="加密" />
+
+    <Button
+        android:id="@+id/bt_analysis"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/bt_encryption"
+        android:text="解密" />
 </RelativeLayout>
