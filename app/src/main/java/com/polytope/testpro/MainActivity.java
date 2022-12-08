@@ -15,6 +15,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.polytope.testpro.utils.AppLog;
+import com.polytope.testpro.utils.EncryptUtil;
+
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.util.ArrayList;
